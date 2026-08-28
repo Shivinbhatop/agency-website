@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ApexWeb Studio | High-Performance Websites & Care Plans</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-indigo-500 selection:text-white">
+
+  <!-- Navigation -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+        <span class="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center font-black text-sm">A</span>
+        ApexWeb
+      </a>
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
+        <a href="#services" class="hover:text-white transition">Services</a>
+        <a href="#pricing" class="hover:text-white transition">Plans</a>
+        <a href="#work" class="hover:text-white transition">Demo Work</a>
+      </nav>
+      <a href="#contact" class="px-4 py-2 text-xs md:text-sm font-semibold text-white bg-indigo-600 hover:bg-indigo-500 rounded-lg transition shadow-lg shadow-indigo-600/20">
+        Book a Free Audit
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative pt-24 pb-20 md:pt-32 md:pb-28 overflow-hidden">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-indigo-500/30 bg-indigo-500/10 text-indigo-400 text-xs font-semibold mb-6">
+        <span class="w-2 h-2 rounded-full bg-indigo-400 animate-pulse"></span>
+        Accepting New Clients This Month
+      </div>
+      <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white leading-tight mb-6">
+        Modern Websites That Bring <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">Real Customers</span> to Your Doorstep.
+      </h1>
+      <p class="text-base sm:text-lg text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
+        We build blazing-fast, mobile-optimized websites for local businesses and handle ongoing maintenance, security, and updates so you never touch code.
+      </p>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="#contact" class="w-full sm:w-auto px-8 py-3.5 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold rounded-xl text-sm transition shadow-xl shadow-indigo-600/25">
+          Get Your Website Done
+        </a>
+        <a href="#pricing" class="w-full sm:w-auto px-8 py-3.5 border border-slate-700 hover:border-slate-500 bg-slate-900/50 text-slate-300 font-semibold rounded-xl text-sm transition">
+          View Retainer Packages
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Grid -->
+  <section id="services" class="py-20 border-t border-slate-900 bg-slate-900/40">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center max-w-xl mx-auto mb-16">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-indigo-400 mb-2">What We Deliver</h2>
+        <p class="text-3xl font-bold text-white">Full-Stack Digital Foundation</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Service 1 -->
+        <div class="p-8 rounded-2xl border border-slate-800 bg-slate-950/60 hover:border-slate-700 transition">
+          <div class="w-10 h-10 rounded-lg bg-indigo-600/20 text-indigo-400 flex items-center justify-center font-bold text-lg mb-6">⚡</div>
+          <h3 class="text-lg font-bold text-white mb-2">Speed & Mobile-First Build</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">Custom layouts engineered to load under 1.5 seconds on mobile networks with top-tier Google PageSpeed scores.</p>
+        </div>
+        <!-- Service 2 -->
+        <div class="p-8 rounded-2xl border border-slate-800 bg-slate-950/60 hover:border-slate-700 transition">
+          <div class="w-10 h-10 rounded-lg bg-cyan-600/20 text-cyan-400 flex items-center justify-center font-bold text-lg mb-6">📍</div>
+          <h3 class="text-lg font-bold text-white mb-2">Local SEO & Google Setup</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">Structured schema data and Google Business Profile integration to rank higher in your local area searches.</p>
+        </div>
+        <!-- Service 3 -->
+        <div class="p-8 rounded-2xl border border-slate-800 bg-slate-950/60 hover:border-slate-700 transition">
+          <div class="w-10 h-10 rounded-lg bg-emerald-600/20 text-emerald-400 flex items-center justify-center font-bold text-lg mb-6">🛡️</div>
+          <h3 class="text-lg font-bold text-white mb-2">Ongoing Web Care Plan</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">Continuous uptime monitoring, cloud backups, security patches, and monthly content updates on demand.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Retainers -->
+  <section id="pricing" class="py-20 border-t border-slate-900">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center max-w-xl mx-auto mb-16">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-indigo-400 mb-2">Clear Pricing</h2>
+        <p class="text-3xl font-bold text-white">Transparent & Scalable Plans</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <!-- One-Time Setup Package -->
+        <div class="p-8 rounded-2xl border border-slate-800 bg-slate-900/30 flex flex-col justify-between">
+          <div>
+            <span class="text-xs font-bold text-slate-400 uppercase tracking-wide">Standard Build</span>
+            <div class="mt-4 mb-6">
+              <span class="text-4xl font-extrabold text-white">₹7,999</span>
+              <span class="text-slate-400 text-sm"> / one-time</span>
+            </div>
+            <ul class="space-y-3 text-sm text-slate-300">
+              <li class="flex items-center gap-2">✓ 3–5 Custom Responsive Pages</li>
+              <li class="flex items-center gap-2">✓ WhatsApp & Call Button Integration</li>
+              <li class="flex items-center gap-2">✓ Google Maps & Business Verification Setup</li>
+              <li class="flex items-center gap-2">✓ Basic On-Page SEO</li>
+            </ul>
+          </div>
+          <a href="#contact" class="mt-8 block text-center py-3 border border-slate-700 hover:border-slate-500 rounded-xl text-sm font-semibold text-white transition">
+            Choose Standard
+          </a>
+        </div>
+
+        <!-- Monthly Retainer Care Plan (Featured) -->
+        <div class="p-8 rounded-2xl border-2 border-indigo-500 bg-indigo-950/20 flex flex-col justify-between relative shadow-2xl shadow-indigo-950">
+          <div class="absolute -top-3.5 right-6 px-3 py-1 bg-indigo-600 rounded-full text-xs font-bold text-white uppercase tracking-wider">
+            Most Popular
+          </div>
+          <div>
+            <span class="text-xs font-bold text-indigo-400 uppercase tracking-wide">Web Care & Growth Plan</span>
+            <div class="mt-4 mb-6">
+              <span class="text-4xl font-extrabold text-white">₹1,499</span>
+              <span class="text-slate-400 text-sm"> / month</span>
+            </div>
+            <ul class="space-y-3 text-sm text-slate-200">
+              <li class="flex items-center gap-2">✓ Fast High-Performance Hosting</li>
+              <li class="flex items-center gap-2">✓ Weekly Backups & Security Scans</li>
+              <li class="flex items-center gap-2">✓ Up to 2 Content/Menu/Pricing Updates/mo</li>
+              <li class="flex items-center gap-2">✓ Monthly Performance Report</li>
+              <li class="flex items-center gap-2">✓ Priority WhatsApp Technical Support</li>
+            </ul>
+          </div>
+          <a href="#contact" class="mt-8 block text-center py-3 bg-indigo-600 hover:bg-indigo-500 rounded-xl text-sm font-semibold text-white transition shadow-lg shadow-indigo-600/30">
+            Subscribe to Care Plan
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Direct Contact Form -->
+  <section id="contact" class="py-20 border-t border-slate-900 bg-slate-900/20">
+    <div class="max-w-xl mx-auto px-6">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-bold text-white mb-2">Request a Quote</h2>
+        <p class="text-sm text-slate-400">Fill in the details below to start via WhatsApp.</p>
+      </div>
+
+      <form id="leadForm" class="space-y-4 bg-slate-950 border border-slate-800 p-8 rounded-2xl shadow-xl">
+        <div>
+          <label class="block text-xs font-semibold uppercase text-slate-400 mb-2">Business Name</label>
+          <input type="text" id="bizName" required class="w-full bg-slate-900 border border-slate-800 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-indigo-500" placeholder="e.g. Apex Dental Clinic" />
+        </div>
+        <div>
+          <label class="block text-xs font-semibold uppercase text-slate-400 mb-2">Service Needed</label>
+          <select id="serviceType" class="w-full bg-slate-900 border border-slate-800 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-indigo-500">
+            <option value="New Website Build">New Website Build</option>
+            <option value="Website Redesign + Care Plan">Website Redesign + Care Plan</option>
+            <option value="Monthly Maintenance Plan">Monthly Maintenance Plan</option>
+          </select>
+        </div>
+        <button type="submit" class="w-full py-3.5 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold rounded-xl text-sm transition">
+          Send via WhatsApp
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="py-8 border-t border-slate-900 text-center text-xs text-slate-500">
+    © 2026 ApexWeb Studio. All rights reserved.
+  </footer>
+
+  <script>
+    // Handles dynamic lead submission directly to WhatsApp
+    document.getElementById('leadForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const bizName = encodeURIComponent(document.getElementById('bizName').value);
+      const serviceType = encodeURIComponent(document.getElementById('serviceType').value);
+      
+      // Replace with your real 10-digit WhatsApp number (including country code, e.g., 91XXXXXXXXXX)
+      const phone = '91XXXXXXXXXX'; 
+      const message = `Hi! I would like to inquire about ${serviceType} for my business: ${bizName}.`;
+      
+      window.open(`https://wa.me/${phone}?text=${message}`, '_blank');
+    });
+  </script>
+</body>
+</html>
